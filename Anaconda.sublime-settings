@@ -1,0 +1,49 @@
+/*
+	Anaconda User settings
+*/
+{
+    /*
+
+        If anaconda_gutter_marks is true, this determines what theme is used.
+        Theme 'basic' only adds dots and circles to gutter.
+
+        Other available themes are 'alpha', 'bright', 'dark', 'hard', "retina"
+        (for retina displays) and 'simple'. To see icons that will be used for
+        each theme check gutter_icon_themes folder in Anaconda package.
+    */
+    "anaconda_gutter_theme": "hard",
+	/*
+        Set those as true if you don't want Sublime Text regular completions
+    */
+    "suppress_word_completions": true,
+    "suppress_explicit_completions": true,
+    /*
+        If complete_parameters is true, anaconda will add function and class
+        parameters to its completions.
+
+        If complete_all_parameters is true, it will add all the possible
+        parameters, if it's false, it will add only required parameters
+    */
+    "complete_parameters": true,
+    "complete_all_parameters": false,
+    /*
+        Sets the linting behaviour for anaconda:
+
+        "always" - Linting works always even while you are writing (in the background)
+        "load-save" - Linting works in file load and save only
+        "save-only" - Linting works in file save only
+    */
+    "anaconda_linting_behaviour": "always",
+	// Maximum line length for pep8
+    // "pep8_max_line_length": 80,
+    "autoformat_ignore":
+    [
+        "E501"          // Line to long
+    ],
+    "pep8_ignore":
+    [
+        "E501",       // Line to long
+        "E266",       // Too many '#' before block comment
+        "E722"        // Don't use bare excepts
+    ]
+}

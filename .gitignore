@@ -3,5 +3,11 @@
 
 # Except the following
 !.gitignore
+!Anaconda.sublime-settings
 !Preferences.sublime-settings
 !Package Control.sublime-settings
+!Material-Theme-Darker (SublimePythonIDE).tmTheme
+!Material-Theme-Palenight (SublimePythonIDE).tmTheme
+!Python.sublime-settings
+!SublimeLinter.sublime-settings
+

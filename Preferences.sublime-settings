@@ -1,0 +1,17 @@
+{
+	"color_scheme": "Packages/User/Material-Theme-Palenight (SublimePythonIDE).tmTheme",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"material_theme_accent_orange": true,
+	"material_theme_arrow_folders": true,
+	"material_theme_compact_sidebar": true,
+	"material_theme_disable_folder_animation": true,
+	"material_theme_disable_tree_indicator": false,
+	"material_theme_small_tab": true,
+	"material_theme_tabs_autowidth": true,
+	"material_theme_titlebar": true,
+	"theme": "Material-Theme-Darker.sublime-theme"
+}

@@ -1,0 +1,11 @@
+// SublimeLinter Settings - User
+{
+	"paths": {
+    "linux": [],
+    "osx": [
+        "/Library/Frameworks/Python.framework/Versions/3.6/bin/flake8"
+    ],
+    "windows": []
+}
+
+}
