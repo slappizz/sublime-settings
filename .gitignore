@@ -11,3 +11,4 @@
 !Python.sublime-settings
 !SublimeLinter.sublime-settings
 !*.sublime-settings
+!*.sublime-*
